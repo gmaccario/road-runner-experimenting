@@ -614,18 +614,6 @@ http:
 
 ---
 
-## Next Steps for Video Series
-
-**Episode 2:** Performance benchmarking - RoadRunner vs PHP-FPM  
-**Episode 3:** Laravel with Octane and RoadRunner  
-**Episode 4:** Queue workers and background jobs  
-**Episode 5:** Production deployment with Docker Swarm/Kubernetes  
-**Episode 6:** Monitoring and metrics with Prometheus  
-**Episode 7:** WebSocket support and real-time applications  
-**Episode 8:** gRPC services with RoadRunner
-
----
-
 ## Resources
 
 - **RoadRunner Official Docs:** https://roadrunner.dev
