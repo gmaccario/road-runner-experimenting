@@ -9,7 +9,7 @@ cd into the episode folder and run `rr serve`
 
 For example:
 ```
-cd "episodes/1 - Symfony integration"
+cd "episodes/0 - First Contact"
 docker-compose down -v
 docker-compose build --no-cache
 docker-compose up
