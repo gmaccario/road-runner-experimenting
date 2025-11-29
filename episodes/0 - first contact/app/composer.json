@@ -1,6 +1,6 @@
 {
     "require": {
-        "php": "^8.5",
+        "php": "^8.4",
         "spiral/roadrunner-worker": "^3.0",
         "spiral/roadrunner-http": "^3.0",
         "nyholm/psr7": "^1.5"

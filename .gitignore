@@ -1,12 +1,9 @@
 # Symfony
-/app/var/
-/app/vendor/
-/app/.env.local
-/app/.env.local.php
-/app/.env.*.local
-
-# Host
-.DS_Store
+episodes/*/app/var/
+episodes/*/app/vendor/
+episodes/*/app/.env.local
+episodes/*/app/.env.local.php
+episodes/*/app/.env.*.local
 
 # IDE
 .idea/
@@ -14,3 +11,7 @@
 *.swp
 *.swo
 *~
+
+# OS
+.DS_Store
+Thumbs.db
