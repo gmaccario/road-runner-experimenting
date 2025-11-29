@@ -1,0 +1,17 @@
+version: '3.8'
+name: Episode 1 - Symfony Integration
+services:
+  roadrunner:
+    build: .
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./app:/app
+      - vendor:/app/vendor
+    environment:
+      - APP_ENV=dev
+      - APP_DEBUG=1
+    working_dir: /app
+
+volumes:
+  vendor:

@@ -1,0 +1,4 @@
+baldinof_road_runner:
+  should_reboot_kernel: true
+  middlewares:
+    - 'Baldinof\RoadRunnerBundle\Http\Middleware\SentryMiddleware'
