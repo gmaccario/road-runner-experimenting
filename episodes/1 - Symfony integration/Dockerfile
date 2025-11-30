@@ -17,9 +17,4 @@ RUN composer install --optimize-autoloader --no-dev --no-scripts
 
 COPY ./app .
 
-# Remove the cache commands - they cause output during build
-# RUN composer dump-autoload --optimize && \
-#     php bin/console cache:clear && \
-#     php bin/console cache:warmup
-
 CMD ["rr", "serve"]
